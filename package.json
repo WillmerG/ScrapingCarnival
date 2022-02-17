@@ -1,0 +1,15 @@
+{
+  "name": "scrapingcarnival",
+  "version": "1.0.0",
+  "description": "Scraping a la pagina web Carnival",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willmer González",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^13.3.2"
+  }
+}
