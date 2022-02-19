@@ -1,7 +1,11 @@
 [
   {
-    "name": "carnival",
+    "name": "ListCarnival",
     "url": "https://www.carnival.com/cruise-ships.aspx",
-    "app": "pageCarnival"
+    "app": "pageCarnival",
+    "selector": {
+      "lista": ".container .ship-result",
+      "nombreCrucero": ".text h2 a"
+    }
   }
 ]

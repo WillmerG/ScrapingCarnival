@@ -6,24 +6,22 @@ module.exports = async (page, website) => {
   await page.goto(website.url);
   await page.waitForSelector('.container');
 
-  const cruise = await page.evaluate(() => {
-    const elements = document.querySelectorAll('.container .ship-result');
+  console.log('obteniendo lista de cruceros');
+  const cruise = await page.evaluate((select) => {
+    const elements = document.querySelectorAll(select.lista);
 
     const list = [];
     for (const item of elements) {
       list.push({
-        cruise: item.querySelector('.text h2 a').innerText,
-        url: item.querySelector('.text h2 a').href
+        cruise: item.querySelector(select.nombreCrucero).innerText,
+        url: item.querySelector(select.nombreCrucero).href
       });
     }
 
     return list;
-  });
+  }, website.selector);
 
-  console.log('pageCarnival', path.join(path.resolve(__dirname, '../assets'), '/data.json'));
-  console.log(cruise);
-
-  await writeFile(path.join(path.resolve(__dirname, '../assets'), '/data.json'), JSON.stringify(cruise), (err) => {
+  await writeFile(path.join(path.resolve(__dirname, '../assets'), `/${website.name}.json`), JSON.stringify(cruise), (err) => {
     if (err) {
       console.error(err);
       return;
