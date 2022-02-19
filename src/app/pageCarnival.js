@@ -1,5 +1,5 @@
-const { writeFile } = require('fs');
 const path = require('path');
+const exportJSON = require('../utils/exportJSON');
 
 module.exports = async (page, website) => {
 
@@ -21,12 +21,5 @@ module.exports = async (page, website) => {
     return list;
   }, website.selector);
 
-  await writeFile(path.join(path.resolve(__dirname, '../assets'), `/${website.name}.json`), JSON.stringify(cruise), (err) => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-
-    console.log('Datos Generados');
-  });
+  await exportJSON(path.join(path.resolve(__dirname, '../assets')), `/${website.name}.json`);
 };
