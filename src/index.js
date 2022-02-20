@@ -3,10 +3,10 @@ const pageCarnival = require('./page/pageCarnival');
 const website = require('./setting/website.json');
 
 (async () => {
-  console.time('Tiempo');
+  console.time('TiempoTotal');
 
   console.log('Creando Browser');
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: true });
 
   console.log('Creando Page');
   const page = await browser.newPage();
@@ -21,5 +21,5 @@ const website = require('./setting/website.json');
   console.log('Cerrando Browser');
   await browser.close();
 
-  console.timeEnd('Tiempo');
+  console.timeEnd('TiempoTotal');
 })();

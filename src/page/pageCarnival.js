@@ -9,6 +9,7 @@ module.exports = async (page, website) => {
   await page.waitForSelector(website.waitSelector);
 
   console.log('obteniendo lista de cruceros');
+  console.time('TiempoPageCarnival');
   const cruise = await page.evaluate((select) => {
     const elements = document.querySelectorAll(select.lista);
 
@@ -40,6 +41,7 @@ module.exports = async (page, website) => {
 
     return list;
   }, website.selector);
+  console.timeEnd('TiempoPageCarnival');
 
   await exportJSON(path.join(path.resolve(__dirname, '../assets'), `/${website.name}.json`), JSON.stringify(cruise));
 };
