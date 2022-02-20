@@ -3,8 +3,10 @@ const exportJSON = require('../utils/exportJSON');
 
 module.exports = async (page, website) => {
 
+  console.log('navegar a ', website.url);
   await page.goto(website.url);
-  await page.waitForSelector('.container');
+  console.log('waitForSelector');
+  await page.waitForSelector(website.waitSelector);
 
   console.log('obteniendo lista de cruceros');
   const cruise = await page.evaluate((select) => {
@@ -24,9 +26,14 @@ module.exports = async (page, website) => {
         });
       }
 
+      let imagen1 = item.querySelector(select.img1);
+      let imagen2 = imagen1 ? item.querySelector(select.img2A) : item.querySelector(select.img2B);
+
       list.push({
         cruise: item.querySelector(select.nombreCrucero).innerText,
         url: item.querySelector(select.nombreCrucero).href,
+        img1: imagen1 ? imagen1.src : null,
+        img2: imagen2 ? imagen2.src : null,
         datos: listDatos
       });
     }
