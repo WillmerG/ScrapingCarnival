@@ -5,7 +5,12 @@
     "app": "pageCarnival",
     "selector": {
       "lista": ".container .ship-result",
-      "nombreCrucero": ".text h2 a"
+      "nombreCrucero": ".text h2 a",
+      "listDatosCrucero": {
+        "selector": ".text ul li",
+        "title": "strong",
+        "link": "a"
+      }
     }
   }
 ]

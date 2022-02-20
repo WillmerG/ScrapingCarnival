@@ -1,1 +1,704 @@
-[{"cruise":"Mardi Gras","url":"https://www.carnival.com/cruise-ships/mardi-gras.aspx"},{"cruise":"Carnival Jubilee","url":"https://www.carnival.com/cruise-ships/carnival-jubilee.aspx"},{"cruise":"Carnival Radiance","url":"https://www.carnival.com/cruise-ships/carnival-radiance.aspx"},{"cruise":"Carnival Celebration","url":"https://www.carnival.com/cruise-ships/carnival-celebration.aspx"},{"cruise":"Carnival Panorama","url":"https://www.carnival.com/cruise-ships/carnival-panorama.aspx"},{"cruise":"Carnival Horizon","url":"https://www.carnival.com/cruise-ships/carnival-horizon.aspx"},{"cruise":"Carnival Sunrise","url":"https://www.carnival.com/cruise-ships/carnival-sunrise.aspx"},{"cruise":"Carnival Miracle","url":"https://www.carnival.com/cruise-ships/carnival-miracle.aspx"},{"cruise":"Carnival Vista","url":"https://www.carnival.com/cruise-ships/carnival-vista.aspx"},{"cruise":"Carnival Magic","url":"https://www.carnival.com/cruise-ships/carnival-magic.aspx"},{"cruise":"Carnival Breeze","url":"https://www.carnival.com/cruise-ships/carnival-breeze.aspx"},{"cruise":"Carnival Freedom","url":"https://www.carnival.com/cruise-ships/carnival-freedom.aspx"},{"cruise":"Carnival Legend","url":"https://www.carnival.com/cruise-ships/carnival-legend.aspx"},{"cruise":"Carnival Paradise","url":"https://www.carnival.com/cruise-ships/carnival-paradise.aspx"},{"cruise":"Carnival Elation","url":"https://www.carnival.com/cruise-ships/carnival-elation.aspx"},{"cruise":"Carnival Sunshine","url":"https://www.carnival.com/cruise-ships/carnival-sunshine.aspx"},{"cruise":"Carnival Dream","url":"https://www.carnival.com/cruise-ships/carnival-dream.aspx"},{"cruise":"Carnival Glory","url":"https://www.carnival.com/cruise-ships/carnival-glory.aspx"},{"cruise":"Carnival Valor","url":"https://www.carnival.com/cruise-ships/carnival-valor.aspx"},{"cruise":"Carnival Liberty","url":"https://www.carnival.com/cruise-ships/carnival-liberty.aspx"},{"cruise":"Carnival Sensation","url":"https://www.carnival.com/cruise-ships/carnival-sensation.aspx"},{"cruise":"Carnival Conquest","url":"https://www.carnival.com/cruise-ships/carnival-conquest.aspx"},{"cruise":"Carnival Ecstasy","url":"https://www.carnival.com/cruise-ships/carnival-ecstasy.aspx"},{"cruise":"Carnival Pride","url":"https://www.carnival.com/cruise-ships/carnival-pride.aspx"},{"cruise":"Carnival Spirit","url":"https://www.carnival.com/cruise-ships/carnival-spirit.aspx"},{"cruise":"Carnival Splendor","url":"https://www.carnival.com/cruise-ships/carnival-splendor.aspx"}]
+[
+  {
+    "cruise": "Mardi Gras",
+    "url": "https://www.carnival.com/cruise-ships/mardi-gras.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Port Canaveral (Orlando), FL",
+          "href": "https://www.carnival.com/cruise-from/port-canaveral"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "6-9 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=MD&dur=D2"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Jubilee",
+    "url": "https://www.carnival.com/cruise-ships/carnival-jubilee.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Galveston, TX",
+          "href": "https://www.carnival.com/cruise-from/galveston"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "6-9 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=JB&dur=D2"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Radiance",
+    "url": "https://www.carnival.com/cruise-ships/carnival-radiance.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Galveston, TX",
+          "href": "https://www.carnival.com/cruise-from/galveston"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=RD&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Celebration",
+    "url": "https://www.carnival.com/cruise-ships/carnival-celebration.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Miami, FL",
+          "href": "https://www.carnival.com/cruise-from/miami"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=CB&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Panorama",
+    "url": "https://www.carnival.com/cruise-ships/carnival-panorama.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Mexico",
+          "href": "https://www.carnival.com/cruise-to/mexico-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Los Angeles (Long Beach), CA",
+          "href": "https://www.carnival.com/cruise-from/long-beach-los-angeles"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "6-9 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=PO&dur=D2"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Horizon",
+    "url": "https://www.carnival.com/cruise-ships/carnival-horizon.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Miami, FL",
+          "href": "https://www.carnival.com/cruise-from/miami"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "6-9 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=HZ&dur=D2"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Sunrise",
+    "url": "https://www.carnival.com/cruise-ships/carnival-sunrise.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Bahamas",
+          "href": "https://www.carnival.com/cruise-to/bahamas-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Miami, FL",
+          "href": "https://www.carnival.com/cruise-from/miami"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=SN&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Miracle",
+    "url": "https://www.carnival.com/cruise-ships/carnival-miracle.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Alaska",
+          "href": "https://www.carnival.com/cruise-to/alaska-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Los Angeles (Long Beach), CA",
+          "href": "https://www.carnival.com/cruise-from/long-beach-los-angeles"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=MI&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Vista",
+    "url": "https://www.carnival.com/cruise-ships/carnival-vista.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Galveston, TX",
+          "href": "https://www.carnival.com/cruise-from/galveston"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=VS&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Magic",
+    "url": "https://www.carnival.com/cruise-ships/carnival-magic.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Bahamas",
+          "href": "https://www.carnival.com/cruise-to/bahamas-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Miami, FL",
+          "href": "https://www.carnival.com/cruise-from/miami"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=MC&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Breeze",
+    "url": "https://www.carnival.com/cruise-ships/carnival-breeze.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Galveston, TX",
+          "href": "https://www.carnival.com/cruise-from/galveston"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=BR&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Freedom",
+    "url": "https://www.carnival.com/cruise-ships/carnival-freedom.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Alaska",
+          "href": "https://www.carnival.com/cruise-to/alaska-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Port Canaveral (Orlando), FL",
+          "href": "https://www.carnival.com/cruise-from/port-canaveral"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=FD&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Legend",
+    "url": "https://www.carnival.com/cruise-ships/carnival-legend.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Bahamas",
+          "href": "https://www.carnival.com/cruise-to/bahamas-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Baltimore, MD",
+          "href": "https://www.carnival.com/cruise-from/baltimore"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "6-9 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=LE&dur=D2"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Paradise",
+    "url": "https://www.carnival.com/cruise-ships/carnival-paradise.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Tampa, FL",
+          "href": "https://www.carnival.com/cruise-from/tampa"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=PA&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Elation",
+    "url": "https://www.carnival.com/cruise-ships/carnival-elation.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Bahamas",
+          "href": "https://www.carnival.com/cruise-to/bahamas-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Port Canaveral (Orlando), FL",
+          "href": "https://www.carnival.com/cruise-from/port-canaveral"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=EL&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Sunshine",
+    "url": "https://www.carnival.com/cruise-ships/carnival-sunshine.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Bahamas",
+          "href": "https://www.carnival.com/cruise-to/bahamas-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Charleston, SC",
+          "href": "https://www.carnival.com/cruise-from/charleston"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=SH&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Dream",
+    "url": "https://www.carnival.com/cruise-ships/carnival-dream.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Galveston, TX",
+          "href": "https://www.carnival.com/cruise-from/galveston"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "6-9 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=DR&dur=D2"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Glory",
+    "url": "https://www.carnival.com/cruise-ships/carnival-glory.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "New Orleans, LA",
+          "href": "https://www.carnival.com/cruise-from/new-orleans"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "6-9 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=GL&dur=D2"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Valor",
+    "url": "https://www.carnival.com/cruise-ships/carnival-valor.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "New Orleans, LA",
+          "href": "https://www.carnival.com/cruise-from/new-orleans"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=VA&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Liberty",
+    "url": "https://www.carnival.com/cruise-ships/carnival-liberty.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Bahamas",
+          "href": "https://www.carnival.com/cruise-to/bahamas-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Port Canaveral (Orlando), FL",
+          "href": "https://www.carnival.com/cruise-from/port-canaveral"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=LI&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Sensation",
+    "url": "https://www.carnival.com/cruise-ships/carnival-sensation.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Miami, FL",
+          "href": "https://www.carnival.com/cruise-from/miami"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=SE&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Conquest",
+    "url": "https://www.carnival.com/cruise-ships/carnival-conquest.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Bahamas",
+          "href": "https://www.carnival.com/cruise-to/bahamas-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Miami, FL",
+          "href": "https://www.carnival.com/cruise-from/miami"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=CQ&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Ecstasy",
+    "url": "https://www.carnival.com/cruise-ships/carnival-ecstasy.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Bahamas",
+          "href": "https://www.carnival.com/cruise-to/bahamas-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Mobile, AL",
+          "href": "https://www.carnival.com/cruise-from/mobile"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=EC&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Pride",
+    "url": "https://www.carnival.com/cruise-ships/carnival-pride.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Caribbean",
+          "href": "https://www.carnival.com/cruise-to/caribbean-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "London (Dover), England",
+          "href": "https://www.carnival.com/cruise-from/london-dover"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=PR&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Spirit",
+    "url": "https://www.carnival.com/cruise-ships/carnival-spirit.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Alaska",
+          "href": "https://www.carnival.com/cruise-to/alaska-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Brisbane, Australia",
+          "href": "https://www.carnival.com/cruise-from/brisbane"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=SP&dur=D1"
+        }
+      }
+    ]
+  },
+  {
+    "cruise": "Carnival Splendor",
+    "url": "https://www.carnival.com/cruise-ships/carnival-splendor.aspx",
+    "datos": [
+      {
+        "strong": "Sail To:",
+        "link": {
+          "text": "Alaska",
+          "href": "https://www.carnival.com/cruise-to/alaska-cruises.aspx"
+        }
+      },
+      {
+        "strong": "Sail From:",
+        "link": {
+          "text": "Sydney, Australia",
+          "href": "https://www.carnival.com/cruise-from/sydney"
+        }
+      },
+      {
+        "strong": "Duration:",
+        "link": {
+          "text": "2-5 Days",
+          "href": "https://www.carnival.com/cruise-search/?shipCode=SL&dur=D1"
+        }
+      }
+    ]
+  }
+]
