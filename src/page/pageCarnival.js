@@ -11,10 +11,8 @@ module.exports = async (page, website) => {
   console.log('obteniendo lista de cruceros');
   console.time('TiempoPageCarnival');
   const cruise = await page.evaluate((select) => {
-    const elements = document.querySelectorAll(select.lista);
-
     const list = [];
-    for (const item of elements) {
+    for (const item of document.querySelectorAll(select.lista)) {
 
       const listDatos = [];
       for (const itemD of item.querySelectorAll(select.listDatosCrucero.selector)) {
