@@ -41,5 +41,5 @@ module.exports = async (page, website) => {
   }, website.selector);
   console.timeEnd('TiempoPageCarnival');
 
-  await exportJSON(path.join(path.resolve(__dirname, '../assets'), `/${website.name}.json`), JSON.stringify(cruise));
+  await exportJSON(path.join(path.resolve(__dirname, '../data'), `/${website.name}.json`), JSON.stringify(cruise));
 };
