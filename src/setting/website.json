@@ -1,5 +1,5 @@
 {
-  "name": "ListCarnival",
+  "nameFile": "ListCarnival.json",
   "waitSelector": ".container",
   "url": "https://www.carnival.com/cruise-ships.aspx",
   "selector": {

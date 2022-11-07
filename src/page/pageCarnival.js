@@ -4,7 +4,7 @@ const exportJSON = require('../utils/exportJSON');
 module.exports = async (page, website) => {
 
   console.log('navegar a ', website.url);
-  await page.goto(website.url);
+  await page.goto(website.url, { waitUntil: 'load', timeout: 0 });
   console.log('waitForSelector');
   await page.waitForSelector(website.waitSelector);
 
@@ -41,5 +41,5 @@ module.exports = async (page, website) => {
   }, website.selector);
   console.timeEnd('TiempoPageCarnival');
 
-  await exportJSON(path.join(path.resolve(__dirname, '../data'), `/${website.name}.json`), JSON.stringify(cruise));
+  await exportJSON(path.join(path.resolve(__dirname, '../data'), `/${website.nameFile}`), JSON.stringify(cruise));
 };
