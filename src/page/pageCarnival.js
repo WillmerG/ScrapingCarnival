@@ -11,30 +11,41 @@ module.exports = async (page, website) => {
   console.log('obteniendo lista de cruceros');
   console.time('TiempoPageCarnival');
   const cruise = await page.evaluate((select) => {
-    const list = [];
-    for (const item of document.querySelectorAll(select.lista)) {
+    const list = {
+      cruises: [],
+      sailFrom: [],
+      sailTo: [],
+      duration: []
+    };
+    for (const item of document.querySelectorAll(select.cruises.lista)) {
 
       const listDatos = [];
-      for (const itemD of item.querySelectorAll(select.listDatosCrucero.selector)) {
+      for (const itemD of item.querySelectorAll(select.cruises.listDatosCrucero.selector)) {
         listDatos.push({
-          strong: itemD.querySelector(select.listDatosCrucero.title).innerText,
+          strong: itemD.querySelector(select.cruises.listDatosCrucero.title).innerText,
           link: {
-            text: itemD.querySelector(select.listDatosCrucero.link).innerText,
-            href: itemD.querySelector(select.listDatosCrucero.link).href
+            text: itemD.querySelector(select.cruises.listDatosCrucero.link).innerText,
+            href: itemD.querySelector(select.cruises.listDatosCrucero.link).href
           }
         });
       }
 
-      let imagen1 = item.querySelector(select.img1);
-      let imagen2 = imagen1 ? item.querySelector(select.img2A) : item.querySelector(select.img2B);
+      let imagen1 = item.querySelector(select.cruises.img1);
+      let imagen2 = imagen1 ? item.querySelector(select.cruises.img2A) : item.querySelector(select.cruises.img2B);
 
-      list.push({
-        cruise: item.querySelector(select.nombreCrucero).innerText,
-        url: item.querySelector(select.nombreCrucero).href,
+      list.cruises.push({
+        cruise: item.querySelector(select.cruises.nombreCrucero).innerText,
+        url: item.querySelector(select.cruises.nombreCrucero).href,
         img1: imagen1 ? imagen1.src : null,
         img2: imagen2 ? imagen2.src : null,
         datos: listDatos
       });
+    }
+
+    for (const key in select.filter) {
+      for (const item of document.querySelectorAll(select.filter[key])) {
+        list[key].push(item.querySelector('label').innerText);
+      }
     }
 
     return list;

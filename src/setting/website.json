@@ -3,15 +3,22 @@
   "waitSelector": ".container",
   "url": "https://www.carnival.com/cruise-ships.aspx",
   "selector": {
-    "lista": ".container .ship-result",
-    "nombreCrucero": ".text h2 a",
-    "img1": ".upper .image .flag > img",
-    "img2A": ".upper .image .flag + img",
-    "img2B": ".upper .image img",
-    "listDatosCrucero": {
-      "selector": ".text ul li",
-      "title": "strong",
-      "link": "a"
+    "cruises": {
+      "lista": ".container .ship-result",
+      "nombreCrucero": ".text h2 a",
+      "img1": ".upper .image .flag > img",
+      "img2A": ".upper .image .flag + img",
+      "img2B": ".upper .image img",
+      "listDatosCrucero": {
+        "selector": ".text ul li",
+        "title": "strong",
+        "link": "a"
+      }
+    },
+    "filter": {
+      "sailFrom": "#filter-bar > .filter__content > .filter-category.filter-port > div > ul > li",
+      "sailTo": "#filter-bar > .filter__content > .filter-category.filter-dest > div > ul > li",
+      "duration": "#filter-bar > .filter__content > .filter-category.filter-dur > div > ul > li"
     }
   }
 }
