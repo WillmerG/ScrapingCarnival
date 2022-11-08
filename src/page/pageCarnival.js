@@ -17,8 +17,9 @@ module.exports = async (page, website) => {
       sailTo: [],
       duration: []
     };
-    for (const item of document.querySelectorAll(select.cruises.lista)) {
 
+    // Tomo los datos del crucero
+    for (const item of document.querySelectorAll(select.cruises.lista)) {
       const listDatos = [];
       for (const itemD of item.querySelectorAll(select.cruises.listDatosCrucero.selector)) {
         listDatos.push({
@@ -42,6 +43,7 @@ module.exports = async (page, website) => {
       });
     }
 
+    // Tomo los datos de filtro de los cruceros
     for (const key in select.filter) {
       for (const item of document.querySelectorAll(select.filter[key])) {
         list[key].push(item.querySelector('label').innerText);
